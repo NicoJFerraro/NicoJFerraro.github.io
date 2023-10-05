@@ -59,7 +59,10 @@
   padding: 50px;
 }
 .footer {
-  background-color: #767676;
+  background-image: url("./img/footer-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -162,7 +165,7 @@ body {
   top: 50%;
   transform: translate(0, -50%);
   border-radius: 20px;
-  box-shadow: 0 30px 50px #505050;
+  box-shadow: 0 30px 50px #000000;
 }
 .item:nth-child(1),
 .item:nth-child(2) {
