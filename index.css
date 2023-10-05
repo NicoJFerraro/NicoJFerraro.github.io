@@ -236,12 +236,26 @@ body {
   text-decoration: none;
 }
 #prev {
+  background-color: #000;
   cursor: pointer;
-  color: #000;
+  color: #ffffff;
+}
+#prev:hover
+{
+  background-color: #ffffff;
+  cursor:-moz-grab;
+  color: #ffffff;
 }
 #next {
+  background-color: #000;
   cursor: pointer;
-  color: #000;
+  color: #ffffff;
+}
+#next:hover
+{
+  background-color: #ffffff;
+  cursor:-moz-grab;
+  color: #ffffff;
 }
 a {
   color: #eee;
