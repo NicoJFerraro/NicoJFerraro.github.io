@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap");
 * {
-  /* color: white; */
+  color: white;
   margin: 0;
   font-family: "Gabarito", cursive;
 }
@@ -59,7 +59,7 @@
   padding: 50px;
 }
 .footer {
-  background-color: #000;
+  background-color: #767676;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -316,7 +316,11 @@ a {
   }
   .download_footer {
     font-size: 25px;
-    color: rgb(14, 212, 212);
+    color: rgb(255, 255, 255);
+  }
+  .download_footer:hover {
+    font-size: 25px;
+    color: rgb(12, 160, 246);
   }
 }
 @media (max-width: 668px) {
